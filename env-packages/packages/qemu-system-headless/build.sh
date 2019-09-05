@@ -18,7 +18,7 @@ termux_step_configure() {
 		--extra-ldflags="${LDFLAGS} -lm" \
 		--disable-curses \
 		--disable-iconv \
-		--disable-vnc \
+		--enable-vnc \
 		--enable-coroutine-pool \
 		--enable-virtfs \
 		--enable-trace-backends=nop \
